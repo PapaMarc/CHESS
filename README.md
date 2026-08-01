@@ -2,9 +2,9 @@
 
 _A historical artifact, a modernization workshop, and a place to reminisce about how far the internet has come._
 
-## 🌱 Origins: The Exchange Application Farm
+## 🌱 Origins: The Exchange Server Sample Applications and the Application Farm
 
-In the early‑1990s, when Microsoft Exchange Server was still new and the internet was still more potential than infrastructure, we created something called the **Exchange Application Farm** — a place intended to be _“fertile ground in which to grow bumper crops of applications.”_
+In the mid‑1990s, when Microsoft Exchange Server was still new, and the internet was still more potential than infrastructure, we created something called the **Exchange Application Farm** — a place intended to be _“fertile ground in which to grow bumper crops of applications.”_
 
 The original AppFarm page (now preserved on the Wayback Machine) captured the spirit of that era:
 
@@ -13,22 +13,26 @@ https://web.archive.org/web/20000919125743/http://www.microsoft.com/TechNet/exch
 
 The idea was simple:
 
-- Demonstrate what developers could build using Exchange’s replicated store
-- Show how replicated, distributed (private and public) folders could act as shared state
-- Highlight custom forms, custom properties, and store‑and‑forward messaging as a transport for applications
-- Seed the ecosystem with real, working sample applications with modifiable source code
+- Demonstrate **what** developers could build using Exchange Server as a platform
+- Show **how**
+  - store‑and‑forward messaging as a transport with private folders, and/or replicated, distributed public folders, with:
+  - custom views - custom forms - custom properties
 
-Exchange shipped with these samples not as toys, but as architectural patterns — examples meant to spark imagination and encourage experimentation.
+could serve as highly maliable respositories, for shared state, for rapidly developed and deployed applications.
 
-## ♟️ Hiring Aaron Bell — and the Birth of the Chess Sample
+So we seeded the ecosystem with real, working sample applications with modifiable shared source code. Exchange Server 4.0 and 5.0 shipped with these Sample Applications (codename: Butthead) in the \samples directory, translated into more than 20 languages, to help developers worldwide as both architectural and inspirational patterns — examples meant to spark imagination and encourage experimentation.
 
-One of those sample applications **Chess**, was written by **Aaron Bell**.
+## ♟️ Hiring Aaron Bell — and the manifestation of the Chess sampleApp impl
 
-And the story of how Aaron arrived at Microsoft is part of the charm.
+One of those sample applications **Chess**, was coded by **Aaron Bell**. And the story of Aaron's touch and go at Microsoft is part of the charm.
 
-I hired Aaron when he was still a child — young enough that i had to work with Microsoft HR to ensure we weren’t violating child labor laws in putting him to work.
+As his hiring manager, i encountered Aaron when he was but a kid-- young enough that i had extra work to do with with Microsoft HR to ensure we weren’t violating child labor laws in putting him on the payroll.
 
-Years later, long after his time at Microsoft, Aaron was profiled in _The New York Times_ as founder and CEO of AdRoll. That article mentions the refrigerator‑light interview — but it happened _decades_ earlier, during our interview together and i still recall those he also recalls.
+He was ahead of his time, many a time... after Microsoft Aaron went off to college and laid down some lore and another application template which another Stanford-ite capitalized on in a big way several years later:
+**🔗 The Stanford Daily: The Forgotten Social Network (2011)**
+https://stanforddaily.com/2011/01/11/the-forgotten-social-network/
+
+Years later, long after his time at Microsoft and Stanford, Aaron was profiled in _The New York Times_ as founder and CEO of AdRoll-- a wildly successful AI‑driven advertising platform used by 110K+ brands to deliver high‑performance, cross‑channel, online marketing. In his interview, he recounts his recollection of how his rapid fire stream of creative alternatives to my 'how do you know the light doesn't remain on after you close the fridge door' question, far outpaced numerous other candidates twice his age, and sealed 1/2dozen+ unanimous 'HIRE' recommendations from all on his day long interview loop.
 
 **🔗 NYTimes Profile of Aaron Bell (2016)**  
 https://www.nytimes.com/2016/03/20/business/aaron-bell-of-adroll-the-truth-may-hurt-but-it-also-heals.html
@@ -55,7 +59,7 @@ Chess has always been fertile ground for experimentation:
 - Social — a way to stay connected with friends and colleagues
 - A perfect testbed for distributed systems, synchronization, and state transfer
 
-In the early days of Exchange, Chess let us demonstrate how messaging could carry evolving state between participants. Today, it remains a beautiful example of how ideas from the past can inspire modern architectures.
+In the early days of Exchange, Chess let us demonstrate how messaging could carry evolving state between participants. Today, it remains a beautiful example of how ideas from the past can be used to inform us of and carry us into the future on modern architectures.
 
 ## 🚀 PapaMarc/CHESS Today
 
@@ -63,29 +67,31 @@ This repository serves two purposes:
 
 ### **1. Archive**
 
-It preserves the original Chess sample application exactly as it shipped with the first version of Exchange Server — a historical artifact from the formative era of Microsoft’s groupware platform.
+It preserves the original Chess sample application exactly as it shipped with Exchange Server 4.0, capturing a moment when Microsoft was first weaving enterprise messaging into the fabric of the early Internet.
 
 ### **2. Workshop**
 
-It explores how that idea could be modernized:
+It plays with alternative ideas how that foundation can be modernized in current day:
 
 - A web‑based version using modern transports
 - A cloud‑distributed version using queues or durable messaging
 - A real‑time version using WebSockets or SignalR
-- A “retro mode” that still plays via email, but using modern MIME, JSON payloads, or Graph APIs
+- A “retro mode” that still plays via email asynchronously, but using modern MIME, JSON payloads, and Microsoft's Graph APIs
 - A version that uses replicated state in modern distributed systems (Redis, CRDTs, etc.)
 
 Thinking through these possibilities is a way to reminisce — to revisit the foundations we built, the constraints we worked within, and the creativity that emerged from those constraints.
 
-It’s also a way to stay connected to old friends, old ideas, and the spirit of the AppFarm.
+It’s also a way to stay connected to old friends, old ideas, and the spirit of the AppFarm... bridging into current day.
 
-## 🧩 A Living Memory
+## 🧩 A work in progress
 
 The AppFarm once described its goal as **cross‑fertilization of ideas** so that others could create more.  
-PapaMarc/CHESS continues that tradition.
+GitHub repo PapaMarc/CHESS continues that tradition.
 
-Chess was never just a game.  
+Chess was never just a game.
+
 It was a message.  
-A message about what was possible.  
-A message about what was coming.  
-A message carried forward, one move at a time.
+A message about posibiilty, creativity, and connectivity.
+A message carried forward, one move at a time, in its time.
+
+AND a medium.
