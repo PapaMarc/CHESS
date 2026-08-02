@@ -20,7 +20,11 @@ The idea was simple:
 
 could serve as highly maliable respositories, for shared state, for rapidly developed and deployed applications.
 
-So we seeded the ecosystem with real, working sample applications with modifiable shared source code. Exchange Server 4.0 and 5.0 shipped with these Sample Applications (codename: Butthead) in the \samples directory, translated into more than 20 languages, to help developers worldwide as both architectural and inspirational patterns — examples meant to spark imagination and encourage experimentation.
+So we seeded the ecosystem with real, working sample applications with modifiable shared source code.
+
+Exchange Server 4.0 and 5.0 shipped with a set of Sample Applications (codename: **Butthead** — yes, _Butthead_, the code-generating WYSIWYG forms designer we built and shipped simultaneously was aptly codenamed: **Beavis**). And yes — as Seinfeld presenting “Butthead” to Bill Gates in the mid‑90s during peak _Seinfeld_ era, the moment practically wrote its own punchline. Bill gave me a look that landed somewhere between _“Should I fire this guy?”_ and _“This is actually kind of funny.”_ After a smirk, a head tilt, a long pause, and a head shake, he let me continue — and in the end, the samples shipped essentially intact.
+
+These applications lived in the `\samples` directory of the server installation and were translated into more than 20 languages, helping developers worldwide by serving as both architectural and inspirational patterns — examples meant to spark imagination and encourage experimentation.
 
 ## ♟️ Hiring Aaron Bell — and the manifestation of the Chess sampleApp impl
 
