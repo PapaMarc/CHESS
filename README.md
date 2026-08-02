@@ -32,7 +32,7 @@ One of those sample applications **Chess**, was coded by **Aaron Bell**. And the
 
 As his hiring manager, i encountered Aaron when he was but a kid-- young enough that i had extra work to do with with Microsoft HR to ensure we weren’t violating child labor laws in putting him on the payroll.
 
-He was ahead of his time, many a time... after Microsoft Aaron went off to college and laid down some lore and another application template which another Stanford-ite capitalized on in a big way several years later:
+He was ahead of his time, many a time... after Microsoft Aaron went off to college and laid down some lore and another application template which some Harvard dropout later capitalized on in notable manner 3 years later:
 **🔗 The Stanford Daily: The Forgotten Social Network (2011)**
 https://stanforddaily.com/2011/01/11/the-forgotten-social-network/
 
