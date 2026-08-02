@@ -159,6 +159,20 @@ This document is the architecture and execution reference for implementing that 
 
 - The board should support drag and drop.
 - The board should also support touch-driven movement on mobile and tablet-sized screens.
+- Move entry should use drag-and-release as the default interaction.
+- Releasing a piece on an invalid destination should snap the piece back to its origin square.
+
+### 6.1a Board overlays and toggles
+
+- The board chrome should expose independent hint toggles:
+- Path: Destinations checkbox.
+- Path: Telegraph checkbox.
+- Notation checkbox.
+- Path: Destinations controls whether legal destination squares are shown while a piece is selected or being dragged.
+- Path: Telegraph controls whether path overlays are rendered during drag toward candidate destinations.
+- Notation controls whether board labels (a-h and 1-8) are shown.
+- Both Path toggles may be disabled at the same time.
+- These toggles affect rendering only and must not alter move legality rules.
 
 ### 6.2 Replay navigation
 
@@ -229,6 +243,8 @@ This document is the architecture and execution reference for implementing that 
 - Invite composer with MRU list.
 - Board rendering.
 - Move interaction with touch and drag.
+- Drag-release invalid-drop snap-back behavior.
+- Board overlay toggles for Path: Destinations, Path: Telegraph, and Notation.
 - Send Move action.
 
 ### Phase 3: Replay and history
