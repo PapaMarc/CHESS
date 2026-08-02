@@ -83,7 +83,7 @@ It plays with alternative ideas how that foundation can be modernized in current
 - A “retro mode” that still plays via email asynchronously, but using modern MIME, JSON payloads, and Microsoft's Graph APIs
 - A version that uses replicated state in modern distributed systems (Redis, CRDTs, etc.)
 
-Thinking through these possibilities is a way to reminisce — to revisit the foundations we built, the constraints we worked within, and the creativity that emerged from those constraints.
+Thinking through these possibilities is a way to reminisce — to revisit the foundations we built and built upon. Building that custom form app (on top of MAPIform, on top of the Exchange client and its custom forms registry, on top of MAPI, on top of the Exchange Store 'dogfood') was like building a glass house, on top of a landfill, during an earthquake. It reminds me of the constraints we worked within, how we worked to extend and expand them, and the creativity that emerged from the constraints that remained.
 
 It’s also a way to stay connected to old friends, old ideas, and the spirit of the AppFarm... bridging into current day.
 
